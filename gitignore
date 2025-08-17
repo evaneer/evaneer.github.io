@@ -1,0 +1,37 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node / build tools (if experimenting with npm, Hugo, Jekyll, etc.)
+node_modules/
+dist/
+public/
+.cache/
+
+# Python (if experimenting with static site scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+
+# Local editor/project files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Don’t commit credentials or config
+*.env
+.env.*
+config.yml
+config.json
+secrets.txt
+
+# Backup files
+*.bak
+*.old
+*~
